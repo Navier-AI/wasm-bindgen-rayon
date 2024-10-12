@@ -26,3 +26,5 @@ onmessage = async ({ data: { receiver, ...initData } }) => {
   postMessage(true);
   wbg_rayon_start_worker(receiver);
 };
+
+export function dummy() {}
